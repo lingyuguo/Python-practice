@@ -4,7 +4,6 @@
 import requests
 import json
 
-
 def get_token():
         url='https://qyapi.weixin.qq.com/cgi-bin/gettoken'
         values = {'corpid' : 'wx4c879f1cbd778cc7' ,
